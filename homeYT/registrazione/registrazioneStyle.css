@@ -1,0 +1,77 @@
+body {
+    background-image: url(sfondoBuono.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+#containerInterno {
+    box-shadow: 2px 2px 3px black;
+        opacity: 0.8;
+        background-color: darkgrey;
+        width: 40vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 30px;
+        border: 1px solid black;
+        border-radius: 15px;
+    }
+
+    .passwordRegistrazione {
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .passwordRegistrazione1{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #btnPrimaPassword {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 4px;
+        border-radius:  20px;
+        border: 1px solid black;
+        padding:  0.2 0.5em;
+    }
+
+     #btnConfermaPassword {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 4px;
+        border-radius:  20px;
+        border: 1px solid black;
+        padding:  0.2 0.5em;
+    }
+
+    #btnInvia{
+        padding: 5px 65px;
+        border-radius: 10px;
+        border: 1px solid black;
+    }
+
+
+    button:hover {
+        background-color: gainsboro;
+        cursor: pointer;
+    }
+
+    .sottotitolo {
+        font-size: x-small;
+        opacity: 0.9;
+    }

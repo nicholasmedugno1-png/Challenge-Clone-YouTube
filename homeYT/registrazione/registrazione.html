@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="registrazioneStyle.css">
+    
+
+
+<script  type = "module"  src = " https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js " > </script> 
+<script nomodule src = " https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js " >   </script>
+    
+    <title>YouTubeSimu</title>
+</head>
+<body>
+<div id="topBar">
+    <h1>Compila per l iscrizione</h1>
+    
+</div>
+    
+    
+    
+        <form id="containerInterno">
+            <p>nome: <input id="inputNome" type="text"></p>
+            <p>cognome: <input id="inputCognome" type="text"></p>
+            <p>nato ad: <input id="inputComune" type="text"></p> 
+            <p>il: <input id="inputGiorno" type="date"> </p>
+            <p>e-mail: <input id="inputEmail" type="email"></p>
+            
+            <div class="passwordRegistrazione">   
+            
+                password: <input id="inputPassword1" type="password"> 
+                
+                <button type="button" id="btnPrimaPassword">
+                    <ion-icon  name="eye-outline"></ion-icon>
+                </button>
+                
+            </div>
+            <li class="sottotitolo">La password deve contenere almeno 8 caratteri</li>
+            
+            <div class="passwordRegistrazione1">
+                Conferma password: <input id="inputPassword2" type="password"> 
+            
+                <button type="button" id="btnConfermaPassword">
+                    <ion-icon name="eye-outline"></ion-icon>
+                </button>
+            
+            </div>
+            
+
+            <button id="btnInvia">Invia</button>
+        </form>  
+    
+
+</body>
+</html>
