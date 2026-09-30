@@ -50,6 +50,7 @@ body {
 }
 
 #logo {
+    margin-left: 12px;
     height: 50%;
 }
 
@@ -159,7 +160,7 @@ body {
 
 
 .video-musicale {
-    width: calc((100% - 40px) / 3); 
+    margin: 0 auto;
     border-radius: 12px;
     padding: 8px;
     box-sizing: border-box;
@@ -202,20 +203,4 @@ body {
 
 
 
-/* RIDIMENSIONE DOPO ESSERE SCESI SOTTO I PX INDICATI */
-@media (max-width: 1200px) {
-    .video-musicale {
-        width: calc((100% - 20px) / 2);
-    }
-}
-
-@media (max-width: 768px) {
-    .video-musicale {
-        width: 100%;
-    }
-
-    #sideBar {
-        display: none;
-    }
-}
 

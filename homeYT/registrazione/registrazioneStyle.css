@@ -75,3 +75,13 @@ body {
         font-size: x-small;
         opacity: 0.9;
     }
+
+    div {
+        margin-bottom: 10px;
+    }
+
+    #gustiMusicali {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
